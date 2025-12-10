@@ -1,0 +1,27 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json"
+    "additionalRowClass": {
+        "operator": "?",
+        "operands": [
+            {
+                "operator": "==",
+                "operands": [
+                    {
+                        "operator": "length",
+                        "operands": [
+                            "[$ManagedMetaDataField_InternalName]"
+                        ]
+                    },
+                    0
+                ]
+            },
+            "sp-css-backgroundColor-BgCoral custom-row-text-black",
+            "custom-row-text-black"
+        ]
+    },
+    "additionalStyles": {
+        ".custom-row-text-black": {
+            "color": "#000000"
+        }
+    }
+}
